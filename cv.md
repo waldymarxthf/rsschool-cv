@@ -5,8 +5,8 @@
 - **Telegram:** @waldymarxthf
 - **Phone:** +375293933615
 ### Summary ###
- Motivated, personable Front-end Developer who loves to learn and creatively solve problems. My ability to work in multitasking mode and high analytical skills allow me to work effectively with large amounts of information and quickly find high-quality solutions to complex problems.
- ### Skills ###
+Motivated, personable Front-end Developer who loves to learn and creatively solve problems. My ability to work in multitasking mode and high analytical skills allow me to work effectively with large amounts of information and quickly find high-quality solutions to complex problems.
+### Skills ###
 ##### *Experience with HTML5, CSS3, JS;* #####
 - knowledge of JavaScript;
 - experience with HTML5, CSS3, JS;
