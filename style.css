@@ -1,8 +1,13 @@
 .wrapper{    
+    width: 1140px;
     margin: 0 auto;
-    padding: 45px 90px;
+    text-align: center;
 }
 .images{
     width: 180px;
     height: 180px;
+}
+li{
+    display: block;
+    margin: auto;
 }
