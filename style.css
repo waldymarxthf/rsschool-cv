@@ -11,3 +11,13 @@ li{
     display: block;
     margin: auto;
 }
+.footer_links{
+    display: flex;
+    justify-content: center;
+}
+.footer_rsschool a img{
+    height: 25px;
+}
+.footer_github a img{
+    margin-right: 10px;
+}
