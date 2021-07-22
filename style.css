@@ -1,0 +1,23 @@
+.wrapper{    
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.images{
+    width: 180px;
+    height: 180px;
+}
+li{
+    display: block;
+    margin: auto;
+}
+.footer_links{
+    display: flex;
+    justify-content: center;
+}
+.footer_rsschool a img{
+    height: 25px;
+}
+.footer_github a img{
+    margin-right: 10px;
+}
