@@ -52,8 +52,9 @@ header{
     line-height: 23px;
     letter-spacing: 0.005em;
     color: #666666;
-    padding-left: 60px;
+    padding-left: 39px;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 .profile{
@@ -166,4 +167,61 @@ span{
 .life{
     width: 898.04px;
     background-color: #E4E6E7;
+}
+
+.trapezium{
+    display: flex;
+    position: relative;
+    height: 0;
+    width: 636px;
+    left: 142px;
+    top: 0;
+    border-bottom: 150px solid #C0D8DE;;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    transform: rotate(180deg);
+    ul{
+        transform: rotate(180deg);
+        list-style: none;
+        li{
+            display: flex;
+            position: absolute;
+            img{
+                max-width: 30px;
+            }
+            a{
+                padding-left: 10px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16.9441px;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.01em;
+                color: #242424;
+            }
+        }
+    }
+}
+
+#instagram{
+    display: flex;
+    position: relative;
+    top: -120px;
+    left: -250px;
+}
+
+#telegram{
+    display: flex;
+    position: relative;
+    top: -148px;
+    left: 0;
+}
+
+#github{
+    display: flex;
+    position: relative;
+    top: -110px;
+    left: -110px;
 }
