@@ -290,4 +290,80 @@ span{
 
 .skills{
     margin-top: 260px;
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: 75px;
+        margin-right: 75px;
+        &-left{
+            display: flex;
+            ul{
+                list-style: none;
+                li{
+                    display: flex;
+                    p{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18.5px;
+                        line-height: 60px;
+                        letter-spacing: 0.01em;
+                        color: #242424;
+                        text-transform: uppercase;
+                        margin-left: 10px;
+                    }
+                    img{
+                        width: 30px;
+                    }
+                }
+            }
+        }
+        &-right{
+            ul{
+                list-style: none;
+                li{
+                    display: flex;
+                    p{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18.5px;
+                        line-height: 60px;
+                        letter-spacing: 0.01em;
+                        color: #242424;
+                        text-transform: uppercase;
+                        margin-left: 10px;
+                    }
+                    img{
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.code{
+    text-align: center;
+    width: 735.94px;
+    height: 63.82px;
+    background: #242424;
+    margin-left: 80px;
+    margin-top: 210px;
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26.5458px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 12px;
+    }
 }
