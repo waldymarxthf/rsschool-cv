@@ -390,3 +390,25 @@ header{
         padding-top: 12px;
     }
 }
+
+.footer{
+    display: flex;
+    margin-top: 500px;
+    justify-content: center;
+    margin-bottom: 80px;
+    img{
+        height: 50px;
+    }
+    h2{
+        display: flex;
+        margin: 0 200px;
+        align-items: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26.5458px;
+        line-height: 40px;
+        letter-spacing: 0.01em;
+        color: #242424;
+    }
+}
