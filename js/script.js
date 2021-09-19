@@ -1,2 +1,1 @@
-let a = 140;
-console.log('140');
+console.log('129 баллов');
