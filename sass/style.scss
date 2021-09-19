@@ -163,6 +163,10 @@ header{
         letter-spacing: 0.05em;
         color: #4F4F4F;
         margin-top: 10px;
+        &:hover{
+            color: #242424;
+            transition: 0.3s;
+        }
     } 
 }
 
@@ -202,6 +206,10 @@ header{
                 align-items: center;
                 letter-spacing: 0.01em;
                 color: #242424;
+                &:hover{
+                    color: #6d6d6d;
+                    transition: 0.3s;
+                }
             }
         }
     }
