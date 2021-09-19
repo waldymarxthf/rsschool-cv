@@ -9,7 +9,8 @@
 main{
     display: flex;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 100px auto;
+    box-shadow: 0 0 75px rgba(0,0,0,80);
 }
 
 a{
@@ -83,14 +84,15 @@ header{
     }
 }
 
-span{
+.line{
     display: flex;
     margin-top: 57px;
     margin-left: 40px;
     width: 323.63px;
-    height: 2.82px;
+    height: 3px;
     background: #828282;
 }
+
 
 .contacts{
     h2{
@@ -233,6 +235,7 @@ span{
     background: #242424;
     margin-left: 80px;
     margin-top: 110px;
+    margin-right: 80px;
     h2{
         display: flex;
         justify-content: center;
@@ -342,7 +345,27 @@ span{
             }
         }
     }
-}
+    &__english{
+        display: flex;
+        justify-content: center;
+            h2{
+                align-items: center;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18.5px;
+                line-height: 60px;
+                letter-spacing: 0.01em;
+                color: #242424;
+                text-transform: uppercase;
+                margin-left: 10px;
+                margin-bottom: 12px;
+            }
+            img{
+                width: 30px;
+            }
+        }
+    }
 
 .code{
     text-align: center;
@@ -350,7 +373,7 @@ span{
     height: 63.82px;
     background: #242424;
     margin-left: 80px;
-    margin-top: 210px;
+    margin-top: 300px;
     h2{
         display: flex;
         justify-content: center;
