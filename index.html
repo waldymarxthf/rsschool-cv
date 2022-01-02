@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prism.css">
+    <title>CV</title>
+</head>
+<body>
+    <main class="cv">
+        <section class="about">
+            <header class="header">
+                <img src="./assets/img/photo.png" alt="photo">
+                <h1 class="name">Novitskiy Iliya</h1>
+                <p class="subname">Frontend developer</p>
+            </header>
+            <article class="profile">
+                <h2>Profile</h2>
+                <h3>Hello everyone, my name is Ilya and I am a beginner developer, this is my first serious project, in the future this inscription will change, since I do not know what to write, because my imagination is so-so.</h3>
+                <span class="line"></span>
+            </article>
+            <article class="contacts">
+                <h2>Contact me</h2>
+                <ul class="nav">
+                    <li class="menu">
+                        <p>Phone number</p>
+                        <a href="tel:+375293933615">+375293933615</a>
+                    </li>
+                    <li class="menu">
+                        <p>Email address</p>
+                        <a href="mailto:iliya.nov223@gmail.com">iliya.nov223@gmail.com</a>
+                    </li>
+                    <li class="menu">
+                        <p>telegram</p>
+                        <a href="https://t.me/waldymarxthf" target="_blank">waldymarxthf</a>
+                    </li>
+                </ul>
+                <span class="line"></span>
+            </article>
+            <article class="info">
+                <h2>MY PROJECTS</h2>
+                <a href="https://rolling-scopes-school.github.io/waldymarxthf-JSFEPRESCHOOL/museum/" target="_blank">Museum</a>
+                <a href="https://github.com/waldymarxthf" target="_blank">GitHub</a>
+            </article>         
+        </section>
+        <section class="life">
+            <div class="trapezium">
+                <ul>
+                    <li id='instagram'>
+                        <img src="./assets/img/instagram.svg" alt="instagram">
+                        <a href="https://www.instagram.com/pochemu_iliyusha/" target="_blank">Instagram</a>
+                    </li>
+                    <li id='telegram'>
+                        <img src="./assets/img/telegram.svg" alt="telegram">
+                        <a href="https://t.me/waldymarxthf" target="_blank">Telegram</a>
+                    </li>
+                    <li id='github'>
+                        <img src="./assets/img/github.svg" alt="github">
+                        <a href="https://github.com/waldymarxthf" target="_blank">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="education">
+                <h2>EDUCATION</h2>
+                <div class="education__info">
+                    <h3>art school</h3>
+                    <h4>2009 - 2016</h4>
+                    <p>Studied 7 years at art school. I have a diploma and of course I can draw</p>
+                    <h3>Minsk State Polytechnic College</h3>
+                    <h4>2017 - 2022</h4>
+                    <p>4th year student in the specialty installation and maintenance of electrical equipment</p>
+                </div>
+            </div>
+            <div class="education skills">
+                <h2>Professional skills</h2>
+                <div class="skills__menu">
+                    <div class="skills__menu-left">
+                        <ul>
+                            <li>
+                                <img src="./assets/img/1.svg" alt="1">
+                                <p>Html/css</p>
+                            </li>
+                            <li>
+                                <img src="./assets/img/2.svg" alt="2">
+                                <p>sass</p>
+                            </li>
+                            <li>
+                                <img src="./assets/img/3.svg" alt="3">
+                                <p>figma</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__menu-right">
+                        <ul>
+                            <li>
+                                <img src="./assets/img/4.svg" alt="4">
+                                <p>photoshop</p>
+                            </li>
+                            <li>
+                                <img src="./assets/img/5.svg" alt="5">
+                                <p>premier pro</p>
+                            </li>
+                            <li>
+                                <img src="./assets/img/6.svg" alt="6">
+                                <p>ms-word</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills__english">
+                    <img src="./assets/img/english.svg" alt="english">
+                    <h2>English: A2</h2>
+                </div>
+            </div>
+            <div class="code">
+                <h2>code example</h2>
+                <pre>
+                    <code class="language-javascript">
+    function guessNumber() {
+        // generating a random integer from 1 to 10
+        const random = Math.floor(Math.random() * 10) + 1;
+        // take input from the user
+        let number = parseInt(prompt('Guess a number from 1 to 10: '));
+        // take the input until the guess is correct
+        while(number !== random) {
+            number = parseInt(prompt('Guess a number from 1 to 10: '));
+        }
+        // check if the guess is correct
+        if(number == random) {
+            console.log('You guessed the correct number.');
+        }
+        }
+    // call the function
+    guessNumber();
+                    </code>
+                </pre>
+            </div>
+            <div class="footer">
+                <a href="https://github.com/waldymarxthf/rsschool-cv/tree/main" target="_blank"><img src="./assets/img/github.svg" alt="github"></a>
+                <h2>2021</h2>
+                <a href="https://app.rs.school/" target="_blank"><img src="./assets/img/rsschool.png" alt="rsschool"></a>
+            </div>
+        </section>
+    </main>
+    <script src="./js/prism.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
